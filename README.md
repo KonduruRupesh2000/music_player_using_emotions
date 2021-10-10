@@ -1,9 +1,7 @@
 ##  Music🎵 player with Emotion😂😥😡😱 Recognition   [![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg)](https://github.com/Spidy20/Music_player_with_Emotions_recognition/blob/master/LICENSE)
 
-### Sourcerer
-<a href="https://sourcerer.io/spidy20"><img src="https://avatars2.githubusercontent.com/u/42056100?v=4" height="50px" width="50px" alt=""/></a>
 
-### [Full Tutorial here](https://www.youtube.com/playlist?list=PLsT53VV2LIIFWgFtLCME6cXT6pUlouN8K)
+
 
 ### Code Requirements
 - Tensorflow
@@ -30,10 +28,6 @@
 
 <img src="https://github.com/Spidy20/Music_player_with_Emotions_recognition/blob/master/Emotion_recognition_Music_player.gif">
 
-### Video demo :- FREE VERSION
-
-[Youtube](https://youtu.be/2xW6TP4Yojg)
-
 
 ### IMPORTANT if you want to purchase with GUI
 - This is just coded version with no GUI, i ggiven it to opensource ,but if you want to purchase a GUI version ,then go to here
@@ -42,12 +36,6 @@
 -  Full GUI (Tkinter)
 -  Own developed Music player with all basic functionalities 
 -  See here are some screenshots of full GUI version.
-
-###  Screenshots
-
-
-###  This guy purchased this project from me and won prize in Zhejiang university of technology China
-###  Poster Presentation 
 
 
 ### Notes
