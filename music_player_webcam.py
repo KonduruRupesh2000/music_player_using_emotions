@@ -1,5 +1,4 @@
-#Coded by:- Kushal Bhavsra
-#From:- Techmicra IT solution
+
 import time
 import cv2
 import label_image
@@ -35,7 +34,7 @@ while True:
             cv2.rectangle(im, (x, y), (x + w, y + h), (0, 25, 255), 7)
             cv2.putText(im, text, (x + h, y), font, 1, (0, 25,255), 2)
 
-        if text == 'Smile':
+        if text == 'Happy':
             cv2.rectangle(im, (x, y), (x + w, y + h), (0,260,0), 7)
             cv2.putText(im, text, (x + h, y), font, 1, (0,260,0), 2)
 
@@ -55,27 +54,27 @@ while True:
             cv2.destroyAllWindows()
             mp = 'C:/Program Files (x86)/Windows Media Player/wmplayer.exe'
             if text == 'Angry':
-                randomfile = random.choice(os.listdir("C:/Users/kusha/PycharmProjects/Music_player_with_Emotions_recognition/songs/Angry/"))
+                randomfile = random.choice(os.listdir("C:/Users/Konduru Varshith/Desktop/Music_player_with_Emotions_recognition/songs/angry/"))
                 print('You are angry !!!! please calm down:) ,I will play song for you :' + randomfile)
-                file = ('C:/Users/kusha/PycharmProjects/Music_player_with_Emotions_recognition/songs/Angry/' + randomfile)
+                file = ('C:/Users/Konduru Varshith/Desktop/Music_player_with_Emotions_recognition/songs/angry/' + randomfile)
                 subprocess.call([mp, file])
 
-            if text == 'Smile':
-                randomfile = random.choice(os.listdir("C:/Users/kusha/PycharmProjects/Music_player_with_Emotions_recognition/songs/Smile/"))
+            if text == 'Happy':
+                randomfile = random.choice(os.listdir("C:/Users/Konduru Varshith/Desktop/Music_player_with_Emotions_recognition/songs/happy/"))
                 print('You are smiling :) ,I playing special song for you: ' + randomfile)
-                file = ('C:/Users/kusha/PycharmProjects/Music_player_with_Emotions_recognition/songs/Smile/' + randomfile)
+                file = ('C:/Users/Konduru Varshith/Desktop/Music_player_with_Emotions_recognition/songs/happy/' + randomfile)
                 subprocess.call([mp, file])
 
             if text == 'Fear':
-                randomfile = random.choice(os.listdir("C:/Users/kusha/PycharmProjects/Music_player_with_Emotions_recognition/songs/Fear/"))
+                randomfile = random.choice(os.listdir("C:/Users/Konduru Varshith/Desktop/Music_player_with_Emotions_recognition/songs/sad/"))
                 print('You have fear of something ,I playing song for you: ' + randomfile)
-                file = ('C:/Users/kusha/PycharmProjects/Music_player_with_Emotions_recognition/songs/Fear/' + randomfile)
+                file = ('C:/Users/Konduru Varshith/Desktop/Music_player_with_Emotions_recognition/songs/sad/' + randomfile)
                 subprocess.call([mp, file])
 
             if text == 'Sad':
-                randomfile = random.choice(os.listdir("C:/Users/kusha/PycharmProjects/Music_player_with_Emotions_recognition/songs/Sad/"))
+                randomfile = random.choice(os.listdir("C:/Users/Konduru Varshith/Desktop/Music_player_with_Emotions_recognition/songs/sad/"))
                 print('You are sad,dont worry:) ,I playing song for you: ' + randomfile)
-                file = ('C:/Users/kusha/PycharmProjects/Music_player_with_Emotions_recognition/songs/Sad/' + randomfile)
+                file = ('C:/Users/Konduru Varshith/Desktop/Music_player_with_Emotions_recognition/songs/sad/' + randomfile)
                 subprocess.call([mp, file])
             break
 

@@ -4,7 +4,7 @@ import os,random,subprocess
 import  numpy as np
 from urllib.request import  urlopen
 import time
-from playsound import playsound
+import playsound
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 size = 4
