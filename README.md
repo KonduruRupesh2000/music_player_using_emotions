@@ -44,16 +44,11 @@
 -  See here are some screenshots of full GUI version.
 
 ###  Screenshots
-<img src="https://github.com/Spidy20/Music_player_with_Emotions_recognition/blob/master/Screenshot (34).png">
-<img src="https://github.com/Spidy20/Music_player_with_Emotions_recognition/blob/master/Screenshot (35).png">
-<img src="https://github.com/Spidy20/Music_player_with_Emotions_recognition/blob/master/Screenshot (36).png">
-<img src="https://github.com/Spidy20/Music_player_with_Emotions_recognition/blob/master/Screenshot (37).png">
-<img src="https://github.com/Spidy20/Music_player_with_Emotions_recognition/blob/master/Screenshot (38).png">
+
 
 ###  This guy purchased this project from me and won prize in Zhejiang university of technology China
 ###  Poster Presentation 
-<img src="https://github.com/Spidy20/Music_player_with_Emotions_recognition/blob/master/china2.jpeg">
-<img src="https://github.com/Spidy20/Music_player_with_Emotions_recognition/blob/master/china1.jpeg">
+
 
 ### Notes
 - It will require high processing power(I have 8 GB RAM & 2 GB GC)
